@@ -3,17 +3,17 @@
         <tr>
             <th>Id</th>
             <th>Nombre</th>
-            <th>Precio</th>
-            <th>Existencias</th>
+            <th>Número</th>
+            <th>Fecha de Ingreso</th>
         </tr>
     </thead>
     <tbody>
-        {% for producto in productos %}
+        {% for empleadoo in empleados %}
         <tr>
-            <td>{{ producto.Id_Empleados}}</td>
-            <td>{{ producto.Nombre_Empleados }}</td>
+            <td>{{ producto.idEmpleado }}</td>
+            <td>{{ producto.nombreEmpleado }}</td>
             <td>{{ numero }}</td>
-            <td>{{ Fechaingreso }}</td>
+            <td>{{ fechaIngreso }}</td>
         </tr>
         {% endfor %}
     </tbody>
